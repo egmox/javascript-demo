@@ -1,3 +1,16 @@
+var a = 12345;
+console.log((a+"")[3]);//javascript loosly typed language
+
+fun(5);
+
+function fun(a){
+	console.log("fun1: "+a);
+}
+
+function fun(){
+	console.log("fun2: "); //javascript always calls the last written function of the same name. No method overloading
+}
+
 var a = 10;
 
 function fun1(){
